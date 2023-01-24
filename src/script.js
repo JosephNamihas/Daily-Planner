@@ -42,12 +42,8 @@ updateHour();
 
 var interval = setInterval(updateHour, 15000);
 
-// For Loop here?
-
-
 // Pair value / keys for local storage
-
-
+// For Loop here? 
     $("#hour-9 .description").val(localStorage.getItem("hour-9")); 
     $("#hour-10 .description").val(localStorage.getItem("hour-10"));
     $("#hour-11 .description").val(localStorage.getItem("hour-11"));
