@@ -1,47 +1,36 @@
-Notes
+Added Time to Header
+Added text areas
 
-9 to 5 (9 divs)
-
-color code for past, present future (grey, green, white)
-
-
+//TODO 
+When I press the corresponding button, I need to save the textArea value to local storage.
 
 
+When comparing times. Use the IsBefore string?
+at midnight + 8 (8am goes green)
+at midnight + 9 (9am goes green, 8 am goes red)
 
----------------
+Set button to retrieve specific timeBlock array index
 
-    { 
-      timeslot: ""
-      description: ""
-    {
+textArea08 - saveBtn08
 
-      Save to local storage.
-    }
+textArea09 - saveBtn09
+
+textArea10 - saveBtn10
+
+textArea11 - saveBtn11
+
+textArea12 - saveBtn12
+
+textArea13 - saveBtn13
+
+textArea14 - saveBtn14
+
+textArea15 - saveBtn15
+
+textArea16 - saveBtn16
+
+textArea17 - saveBtn17
 
 
 
-var timeBlockContainer = document.getElementById("container");
-var timeBlockArray = ["1","2","3","4","5","6","7","8","9"];
 
-
-    /*function createTimeBlocks() {
-// Needs to Textboxes!
-    for(i = 0; i < timeBlockArray.length; i++) {
-        var timeBlock = document.createElement("input");
-        timeBlock.setAttribute("type", "text")
-        timeBlock.classList.add("time-block")
-        timeBlock.textContent = "Time";
-        timeBlockContainer.append(timeBlock);
-    }
-}
-*/
-/*
-function createSaveButton() {
-    for(i = 0; i < timeBlockArray.length; i++) {
-        var saveButton = document.createElement("button");
-        saveButton.classList.add("saveBtn")
-        saveButton.textContent ="Save";
-        timeBlockContainer.append(saveButton);
-    }
-}
-*/
